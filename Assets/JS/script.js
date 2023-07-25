@@ -5,23 +5,6 @@ document.title = "Log In"
 let counter = 0
 let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
 
-// loginBtn.addEventListener("click", function(){
-//     console.log(counter)
-//     if(counter >= 2){
-//         alert(`You have reached max attmpts`)
-//     }else{
-//         counter ++
-//         for(let i=0; i<users.length; i++){
-//             if(userEl.value == users[i][0] && passEl.value == users[i][1] ){
-            
-//                 document.write(`<h1 style="text-align: center; color: red">Welcome ${userEl.value}</h1>`)
-//                 setTimeout(second_page,3000)
-//             }
-//         }
-        
-//     }
-//     alert(`You still have ${3-counter} attempts`)   
-// })
 
 // loginBtn.addEventListener("click", function(){
 // if(counter >=3){
