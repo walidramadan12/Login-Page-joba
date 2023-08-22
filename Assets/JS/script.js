@@ -1,10 +1,12 @@
 let userEl = document.getElementById("User")
 let passEl = document.getElementById("Pass")
 let loginBtn = document.getElementById("Loginbtn")
-let registerBtn = document.getAnimations("registerBtn")
+let registerBtn = document.getElementById("registerBtn")
 document.title = "Log In"
 let counter = 0
 let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
+
+
 
 
 // loginBtn.addEventListener("click", function(){
@@ -54,5 +56,6 @@ loginBtn.addEventListener("click", function(){
 function second_page(){
     window.location.replace("list.html")
 }          
-
-
+registerBtn.addEventListener("click",function(){
+    window.location.replace("signup.html")
+})
