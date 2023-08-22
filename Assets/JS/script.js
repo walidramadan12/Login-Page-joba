@@ -1,6 +1,7 @@
 let userEl = document.getElementById("User")
 let passEl = document.getElementById("Pass")
 let loginBtn = document.getElementById("Loginbtn")
+let registerBtn = document.getAnimations("registerBtn")
 document.title = "Log In"
 let counter = 0
 let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
