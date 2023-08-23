@@ -34,8 +34,6 @@ const fighters = [
         fightBtnEl.style.backgroundColor="#f0f"
       }
       }})
-
-
       function go_main(){
         location.replace("index.html")
     } 
