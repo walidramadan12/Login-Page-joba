@@ -31,6 +31,12 @@ let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
 //     }
     
 // })
+passEl.addEventListener("keypress",function(event){
+    if(event.key==="Enter"){
+        event.preventDefault()
+        document.getElementById("Loginbtn").click()
+    }
+})
 
 loginBtn.addEventListener("click", function(){
 
